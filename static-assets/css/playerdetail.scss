@@ -1,0 +1,325 @@
+.main-wrapper {
+    background-image: url(../../static-assets/images/cssimages/squad/card-bgc9e4.jpg?v=3.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 0px;
+
+    .detail-wrapper {
+        width: 90%;
+        margin: auto;
+        padding: 2rem 0 14rem;
+        color: white;
+
+        .row {
+            height: 100%;
+            width: 100%;
+            align-items: flex-end;
+
+            .img-sec {
+                height: 50rem;
+
+                img {
+                    height: 100%;
+                    width: auto;
+                }
+            }
+        }
+
+        .title-sec {
+            .player-name {
+                border-bottom: 0.1px solid #ffffff33;
+                padding: 1em 0px;
+
+                .first-name {
+                    font-family: "Romagna-Regular", sans-serif;
+                    color: white;
+                    font-size: 3.6rem;
+                    line-height: 1;
+                }
+
+                .last-name {
+                    font: 3.2rem/3.8rem "Romagna-Bold", sans-serif;
+                    color: hsl(322 95% 46%);
+                }
+            }
+
+            .player-info {
+                display: flex;
+                align-items: center;
+                font: 1.4rem/2rem "Montserrat-Medium", sans-serif;
+                padding: 10px 0px;
+                border-bottom: 0.1px solid #ffffff33;
+
+                .country-flag {
+                    width: 20px;
+                    margin: 0px 10px;
+                }
+
+                .country-name {
+                    margin-left: 10px;
+                }
+            }
+
+            .player-stats {
+                padding: 10px 0px;
+                border-bottom: 0.1px solid #ffffff33;
+
+                .box {
+                    border-right: 0.1px solid #ffffff33;
+
+                    .head {
+                        font: 1.2rem/1.8rem "Montserrat-Medium", sans-serif;
+                        color: #ffffff8e;
+                    }
+
+                    .value {
+                        font: 3.2rem/3.8rem "Romagna-Bold", sans-serif;
+                    }
+                }
+            }
+
+            .player-others {
+                padding: 10px 0px;
+                border-bottom: 0.1px solid #ffffff33;
+
+                .box {
+                    border-right: 0.1px solid #ffffff33;
+
+                    .head {
+                        font: 1.2rem/1.8rem "Montserrat-Medium", sans-serif;
+                        color: #ffffff8e;
+                    }
+
+                    .value {
+                        font: 1.2rem/1.8rem "Montserrat-Bold", sans-serif;
+                    }
+                }
+            }
+        }
+
+        .player-about {
+            .head {
+                font: 1.2rem/1.8rem "Montserrat-Bold", sans-serif;
+                margin: 10px 0px;
+            }
+
+            .desc {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .match-card-wrapper {
+        .match-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 7px;
+            margin-bottom: 20px;
+            .br-1 {
+                position: relative;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: 0px;
+                    border-right: 1px solid #838181;
+                    height: 80%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            .match-name {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                .match-count {
+                    font: 1.2rem/1.8rem "Montserrat-Medium", sans-serif;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+
+                .match-date {
+                    font-size: 1.2rem;
+                    line-height: 1.4rem;
+                }
+            }
+
+            .versusimg {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 100px;
+                    height: auto;
+                    border-radius: 50%;
+                    padding: 10px;
+                    box-shadow: 0 0 .5rem hsl(240 18% 13%);
+                }
+
+                .me-2 {
+                    margin-right: 10px;
+                }
+
+                .text {
+                    color: #838181;
+                    text-align: center;
+
+                    .score {
+                        font-size: 2.4rem;
+                        line-height: 2.6rem;
+                        font: 2.6rem/3.2rem "Romagna-Bold", sans-serif;
+                    }
+                }
+            }
+
+            .match-details {
+                padding: 0px 10px;
+            }
+
+            .match-result {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 16px;
+                line-height: 1.4rem;
+            }
+
+            .match-btn {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                .common-btn {
+                    padding: 10px 20px;
+                    background-color: #e50693;
+                    border-radius: 3px;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+            }
+
+
+            .versus {
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+
+                .versustxt {
+                    width: 30px;
+                    height: 30px;
+                    background-color: #f2ddea;
+                    color: hsl(322 95% 30%);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    position: relative;
+                    font-size: 20px;
+                    line-height: 1.4rem;
+                    font-weight: 500;
+                }
+
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 765px) {
+    .main-wrapper {
+        padding: 10px;
+
+        .detail-wrapper {
+            width: 95%;
+
+            .row {
+                flex-direction: column-reverse;
+                margin-right: 0px;
+
+                .col-xl-8 {
+                    padding-right: 0px;
+
+                    .row {
+                        margin-right: 0px;
+
+                        .col-xl-3 {
+                            padding: 0px 5px;
+                        }
+                    }
+                }
+
+                .img-sec {
+                    height: 50vh;
+                }
+
+                .player-stats {
+                    .row {
+                        position: relative;
+                        flex-direction: row;
+
+                        .border-right-0 {
+                            border-right: 0px;
+                        }
+                    }
+                }
+
+                .player-others {
+                    .box {
+                        .head {
+                            font-size: 10px;
+                        }
+
+                        .value {
+                            font-size: 10px;
+                        }
+                    }
+
+                    .row {
+                        position: relative;
+                        flex-direction: row;
+
+                        .border-right-0 {
+                            border-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main-wrapper .match-card-wrapper {
+        margin: 80px 0px 0px;
+
+        .br-1 {
+            &::after {
+                display: none;
+            }
+        }
+
+        .match-result,
+        .match-btn,
+        .match-name {
+            margin: 10px auto;
+            text-align: center;
+        }
+
+        .versusimg {
+            justify-content: center;
+            margin: 15px 0px;
+        }
+    }
+}

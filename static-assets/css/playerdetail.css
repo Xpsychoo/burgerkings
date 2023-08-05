@@ -1,0 +1,256 @@
+.main-wrapper {
+  background-image: url(../../static-assets/images/cssimages/squad/card-bgc9e4.jpg?v=3.1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  border-radius: 0px;
+}
+.main-wrapper .detail-wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0 14rem;
+  color: white;
+}
+.main-wrapper .detail-wrapper .row {
+  height: 100%;
+  width: 100%;
+  align-items: flex-end;
+}
+.main-wrapper .detail-wrapper .row .img-sec {
+  height: 50rem;
+}
+.main-wrapper .detail-wrapper .row .img-sec img {
+  height: 100%;
+  width: auto;
+}
+.main-wrapper .detail-wrapper .title-sec .player-name {
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+  padding: 1em 0px;
+}
+.main-wrapper .detail-wrapper .title-sec .player-name .first-name {
+  font-family: "Romagna-Regular", sans-serif;
+  color: white;
+  font-size: 3.6rem;
+  line-height: 1;
+}
+.main-wrapper .detail-wrapper .title-sec .player-name .last-name {
+  font: 3.2rem/3.8rem "Romagna-Bold", sans-serif;
+  color: hsl(322, 95%, 46%);
+}
+.main-wrapper .detail-wrapper .title-sec .player-info {
+  display: flex;
+  align-items: center;
+  font: 1.4rem/2rem "Montserrat-Medium", sans-serif;
+  padding: 10px 0px;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-info .country-flag {
+  width: 20px;
+  margin: 0px 10px;
+}
+.main-wrapper .detail-wrapper .title-sec .player-info .country-name {
+  margin-left: 10px;
+}
+.main-wrapper .detail-wrapper .title-sec .player-stats {
+  padding: 10px 0px;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-stats .box {
+  border-right: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-stats .box .head {
+  font: 1.2rem/1.8rem "Montserrat-Medium", sans-serif;
+  color: rgba(255, 255, 255, 0.5568627451);
+}
+.main-wrapper .detail-wrapper .title-sec .player-stats .box .value {
+  font: 3.2rem/3.8rem "Romagna-Bold", sans-serif;
+}
+.main-wrapper .detail-wrapper .title-sec .player-others {
+  padding: 10px 0px;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-others .box {
+  border-right: 0.1px solid rgba(255, 255, 255, 0.2);
+}
+.main-wrapper .detail-wrapper .title-sec .player-others .box .head {
+  font: 1.2rem/1.8rem "Montserrat-Medium", sans-serif;
+  color: rgba(255, 255, 255, 0.5568627451);
+}
+.main-wrapper .detail-wrapper .title-sec .player-others .box .value {
+  font: 1.2rem/1.8rem "Montserrat-Bold", sans-serif;
+}
+.main-wrapper .detail-wrapper .player-about .head {
+  font: 1.2rem/1.8rem "Montserrat-Bold", sans-serif;
+  margin: 10px 0px;
+}
+.main-wrapper .detail-wrapper .player-about .desc {
+  font-size: 1.2rem;
+}
+.main-wrapper .match-card-wrapper .match-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.main-wrapper .match-card-wrapper .match-card .br-1 {
+  position: relative;
+}
+.main-wrapper .match-card-wrapper .match-card .br-1::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  border-right: 1px solid #838181;
+  height: 80%;
+  transform: translate(-50%, -50%);
+}
+.main-wrapper .match-card-wrapper .match-card .match-name {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-wrapper .match-card-wrapper .match-card .match-name .match-count {
+  font: 1.2rem/1.8rem "Montserrat-Medium", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.main-wrapper .match-card-wrapper .match-card .match-name .match-date {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.main-wrapper .match-card-wrapper .match-card .versusimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-wrapper .match-card-wrapper .match-card .versusimg img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 0.5rem hsl(240, 18%, 13%);
+}
+.main-wrapper .match-card-wrapper .match-card .versusimg .me-2 {
+  margin-right: 10px;
+}
+.main-wrapper .match-card-wrapper .match-card .versusimg .text {
+  color: #838181;
+  text-align: center;
+}
+.main-wrapper .match-card-wrapper .match-card .versusimg .text .score {
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  font: 2.6rem/3.2rem "Romagna-Bold", sans-serif;
+}
+.main-wrapper .match-card-wrapper .match-card .match-details {
+  padding: 0px 10px;
+}
+.main-wrapper .match-card-wrapper .match-card .match-result {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4rem;
+}
+.main-wrapper .match-card-wrapper .match-card .match-btn {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.main-wrapper .match-card-wrapper .match-card .match-btn .common-btn {
+  padding: 10px 20px;
+  background-color: #e50693;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+.main-wrapper .match-card-wrapper .match-card .versus {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.main-wrapper .match-card-wrapper .match-card .versus .versustxt {
+  width: 30px;
+  height: 30px;
+  background-color: #f2ddea;
+  color: hsl(322, 95%, 30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  font-size: 20px;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 765px) {
+  .main-wrapper {
+    padding: 10px;
+  }
+  .main-wrapper .detail-wrapper {
+    width: 95%;
+  }
+  .main-wrapper .detail-wrapper .row {
+    flex-direction: column-reverse;
+    margin-right: 0px;
+  }
+  .main-wrapper .detail-wrapper .row .col-xl-8 {
+    padding-right: 0px;
+  }
+  .main-wrapper .detail-wrapper .row .col-xl-8 .row {
+    margin-right: 0px;
+  }
+  .main-wrapper .detail-wrapper .row .col-xl-8 .row .col-xl-3 {
+    padding: 0px 5px;
+  }
+  .main-wrapper .detail-wrapper .row .img-sec {
+    height: 50vh;
+  }
+  .main-wrapper .detail-wrapper .row .player-stats .row {
+    position: relative;
+    flex-direction: row;
+  }
+  .main-wrapper .detail-wrapper .row .player-stats .row .border-right-0 {
+    border-right: 0px;
+  }
+  .main-wrapper .detail-wrapper .row .player-others .box .head {
+    font-size: 10px;
+  }
+  .main-wrapper .detail-wrapper .row .player-others .box .value {
+    font-size: 10px;
+  }
+  .main-wrapper .detail-wrapper .row .player-others .row {
+    position: relative;
+    flex-direction: row;
+  }
+  .main-wrapper .detail-wrapper .row .player-others .row .border-right-0 {
+    border-right: 0px;
+  }
+  .main-wrapper .match-card-wrapper {
+    margin: 80px 0px 0px;
+  }
+  .main-wrapper .match-card-wrapper .br-1::after {
+    display: none;
+  }
+  .main-wrapper .match-card-wrapper .match-result,
+  .main-wrapper .match-card-wrapper .match-btn,
+  .main-wrapper .match-card-wrapper .match-name {
+    margin: 10px auto;
+    text-align: center;
+  }
+  .main-wrapper .match-card-wrapper .versusimg {
+    justify-content: center;
+    margin: 15px 0px;
+  }
+}/*# sourceMappingURL=playerdetail.css.map */
